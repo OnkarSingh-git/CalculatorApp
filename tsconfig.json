@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-native",
+    "types": ["react-native"],
+    "paths": {
+      "@react-navigation/*": ["./node_modules/@react-navigation/*"]
+    
+  }
+}
+}
